@@ -11,11 +11,6 @@ db.info().then(function (info) {
 const menuItems = [
   {
     label: 'Menu',
-    // submenu: [
-    //   {
-    //     label: 'About',
-    //   },
-    // ],
   },
   {
     label: 'File',

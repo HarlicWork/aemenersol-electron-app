@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <script src="node_modules/pouchdb/dist/pouchdb.min.js"></script>
+    <title>Electron App</title>
+  </head>
+  <body>
+    <h1>Electron Assessment AEM Enersol</h1>
+    We are using Node.js <b><span id="node-version"></span></b>, Chromium
+    <b><span id="chrome-version"></span></b> and Electron
+    <b><span id="electron-version"></span></b>
+  </body>
+</html>
